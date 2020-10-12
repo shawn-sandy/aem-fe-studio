@@ -1,0 +1,20 @@
+{
+    "name": "aem-fe-studio",
+    "displayName": "AEM FE STUDIO",
+    "description": "Snippets for AEM frontend developer",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "java",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
