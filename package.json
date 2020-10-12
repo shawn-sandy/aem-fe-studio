@@ -14,6 +14,14 @@
             {
                 "language": "java",
                 "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/snippets.code-snippets"
             }
         ]
     }
