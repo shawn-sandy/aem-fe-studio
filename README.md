@@ -1,10 +1,18 @@
 # AEM-STUDIO
 
-This is the README for your extension "aem-studio". After writing up a brief description, we recommend including the following sections.
+Am AEM snippet extension for frontend development.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Usage snippets triggers
+
+- `aem_dialog inserts` a dialog settings into `_cq_dialog/.content.xml` file
+- `aem_dialog_field` inserts a dialog field into `_cq_dialog/.content.xml` into the items node
+- `aem_htmlTag` insert a dialog field into the `_cq_htmlTags/.content.xml` file
+- `aem_component` insert into your `/.component.xml` file
+- `aem_component` insert component into your `/.component.xml` file
+- `aem_component` insert component with `sling:resourceSuperType` field into your `/.component.xml` file
+
 
 ### Development
 
