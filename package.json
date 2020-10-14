@@ -1,7 +1,7 @@
 {
     "name": "aem-fe-studio",
     "publisher": "shawnsandy",
-    "displayName": "CodeStudio Extension Pack",
+    "displayName": "AEM Frontend Studio",
     "description": "Snippets for AEM frontend development",
     "version": "0.1.0",
     "repository": {
