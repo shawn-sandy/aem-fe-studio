@@ -16,7 +16,10 @@
     ],
     "scripts": {
         "build": "vsce package",
-        "history": "auto-changelog --output HISTORY.md"
+        "history": "auto-changelog --output HISTORY.md",
+        "np:major": "np major --yolo=true --no-publish",
+        "np:minor": "np minor --yolo=true --no-publish",
+        "np:patch": "np patch --yolo=true --no-publish"
     },
     "contributes": {
         "snippets": [
