@@ -15,7 +15,8 @@
         "Snippets"
     ],
     "scripts": {
-        "build": "vsce package"
+        "build": "vsce package",
+        "history": "auto-changelog --output HISTORY.md"
     },
     "contributes": {
         "snippets": [
