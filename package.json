@@ -21,22 +21,7 @@
         "np:minor": "np minor --yolo=true --no-publish",
         "np:patch": "np patch --yolo=true --no-publish"
     },
-    "contributes": {
-        "snippets": [
-            {
-                "language": "java",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "html",
-                "path": "./snippets/snippets.code-snippets"
-            },
-            {
-                "language": "xml",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    },
+    "contributes": {},
     "devDependencies": {
         "auto-changelog": "^2.2.1",
         "np": "^6.5.0",
