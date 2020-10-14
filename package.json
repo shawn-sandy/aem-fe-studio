@@ -3,7 +3,7 @@
     "publisher": "shawnsandy",
     "displayName": "AEM Frontend Studio",
     "description": "Snippets for AEM frontend development",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/shawn-sandy/aem-fe-studio.git"
