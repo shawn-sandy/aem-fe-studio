@@ -9,7 +9,6 @@ Usage snippets triggers
 - `aem_dialog inserts` a dialog settings into `_cq_dialog/.content.xml` file
 - `aem_dialog_field` inserts a dialog field into `_cq_dialog/.content.xml` into the items node
 - `aem_htmlTag` insert a dialog field into the `_cq_htmlTags/.content.xml` file
-- `aem_component` insert into your `/.component.xml` file
 - `aem_component` insert component into your `/.component.xml` file
 - `aem_component` insert component with `sling:resourceSuperType` field into your `/.component.xml` file
 
