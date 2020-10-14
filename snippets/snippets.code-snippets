@@ -45,7 +45,19 @@
         ],
         "description": "Aem Dialog "
     },
-    "CQ HTML Tag place in _cq_dialog foldes": {
+    "Component dialog field": {
+        "prefix": "ame_dialog_field",
+        "body": [
+            "<${1:name}",
+            "  jcr:primaryType=\"nt:unstructured\"",
+            "  sling:resourceType=\"${2:granite/ui/components/coral/foundation/form/textfield}\"",
+            "  fieldLabel=\"fieldName\"",
+            "  name=\"./${3:property_name}\"/>",
+            "                          "
+        ],
+        "description": "Component dialog field"
+    },
+    "CQ HTML Tag place in _cq_dialog folder": {
         "prefix": "aem_htmlTag",
         "body": [
             "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",

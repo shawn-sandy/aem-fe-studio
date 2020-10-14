@@ -1,7 +1,8 @@
 {
     "name": "aem-fe-studio",
-    "displayName": "AEM FE STUDIO",
-    "description": "Snippets for AEM frontend developer",
+    "publisher": "shawnsandy",
+    "displayName": "CodeStudio Extension Pack",
+    "description": "Snippets for AEM frontend development",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.50.0"
@@ -9,6 +10,9 @@
     "categories": [
         "Snippets"
     ],
+    "scripts": {
+        "build": "vsce package"
+    },
     "contributes": {
         "snippets": [
             {
@@ -24,5 +28,10 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "devDependencies": {
+        "auto-changelog": "^2.2.1",
+        "np": "^6.5.0",
+        "vsce": "^1.81.1"
     }
 }
