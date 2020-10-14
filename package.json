@@ -3,7 +3,7 @@
     "publisher": "shawnsandy",
     "displayName": "AEM Frontend Snippet Studio",
     "description": "Snippets for AEM frontend development",
-    "version": "0.3.1",
+    "version": "0.3.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/shawn-sandy/aem-fe-studio.git"
@@ -21,7 +21,26 @@
         "np:minor": "np minor --yolo=true --no-publish",
         "np:patch": "np patch --yolo=true --no-publish"
     },
-    "contributes": {},
+    "contributes": {
+        "snippets": [
+            {
+                "language": "java",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
     "devDependencies": {
         "auto-changelog": "^2.2.1",
         "np": "^6.5.0",
