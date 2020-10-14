@@ -1,16 +1,22 @@
 # AEM-STUDIO
 
-Am AEM snippet extension for frontend development.
+An AEM VS CODE snippet extension for frontend development.
+[Learn more about VS Code snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+
 
 ## Features
 
-Usage snippets triggers
+- Quickly generate/scaffold AEM snippets
+- Work in progress (WIP)
 
-- `aem_dialog inserts` a dialog settings into `_cq_dialog/.content.xml` file
+### Snippets usage/triggers
+
+- `aem_dialog` a dialog settings into `_cq_dialog/.content.xml` file
 - `aem_dialog_field` inserts a dialog field into `_cq_dialog/.content.xml` into the items node
 - `aem_htmlTag` insert a dialog field into the `_cq_htmlTags/.content.xml` file
 - `aem_component` insert component into your `/.component.xml` file
-- `aem_component` insert component with `sling:resourceSuperType` field into your `/.component.xml` file
+- `aem_component_advanced` insert component with `sling:resourceSuperType` field into your `/.component.xml` file
+- `mvn_archetype` Generates the code/commands for generating an AEM  Maven archetype project in batch mode command(s)
 
 
 ### Development
@@ -20,14 +26,15 @@ Usage snippets triggers
 - Install Auto Changelog `npm install -g auto-changelog` [Auto Changelog](https://www.npmjs.com/package/auto-changelog)
 - Install np `npm install --global np` [np](https://www.npmjs.com/package/np)
 - Build extension `npm run build`
-- `npm run changelog` to generate changelogs
+- `npm run history` to generate changelogs
 
 ### Contributing
 
 If you would like to contribute to this extension
 
-- Clone the repo `git clone https://github.com/shawn-sandy/codestudio`
+- Clone the repo `git clone https://github.com/shawn-sandy/aem-fe-studio`
 - Add an extension to the `package.json` fix a bug/typo etc
+- Add snippets to `snippets.code-snippets` file
 - Submit a Pull request
 - Approval subject to review
 
