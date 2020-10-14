@@ -1,7 +1,7 @@
 {
     "name": "aem-fe-studio",
     "publisher": "shawnsandy",
-    "displayName": "AEM Frontend Studio",
+    "displayName": "AEM Frontend Snippet Studio",
     "description": "Snippets for AEM frontend development",
     "version": "0.2.1",
     "repository": {
