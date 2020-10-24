@@ -18,6 +18,31 @@ An AEM VS CODE snippet extension for frontend development.
 - `aem_component_advanced` insert component with `sling:resourceSuperType` field into your `/.component.xml` file
 - `mvn_archetype` Generates the code/commands for generating an AEM  Maven archetype project in batch mode command(s)
 
+#### AEM PROJECT ARCHETYPE (usage)
+
+Generates the code/commands for generating an AEM  Maven archetype project in batch mode command(s)
+Info and instructions -- https://github.com/adobe/aem-project-archetype
+USAGE (running AEM author server is required for steps last 4 steps)
+
+- Copy everything below the DEMO line
+- Open your terminal (git bash preferred on windows), cd into your install folder, and paste the copied lines your terminal hit enter
+- You should see a output with success message (below) when completed
+```
+Creating content skeleton...
+[INFO] Project created from Archetype in dir: C:\Users\SSANDY\source\AEM\blank-demo
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.093 s
+[INFO] Finished at: 2020-09-23T15:41:11-04:00
+[INFO] ------------------------------------------------------------------------
+```
+- CD into the folder `blueprints` generated from the package
+- Please make sure you have a running instance of AEM Author (`localhost:4502`)
+- Paste the following  `mvn -PautoInstallSinglePackage clean install` into your terminal and hit enter
+- You should see a BUILD SUCCESS MESSAGE(S)
+- For additional options visit https://github.com/adobe/aem-project-archetype
+
 
 ### Development
 
